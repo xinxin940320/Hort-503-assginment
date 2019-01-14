@@ -1,0 +1,89 @@
+Exe 1
+Xin-Xins-MacBook-Air:~ xin$ cd temp
+Xin-Xins-MacBook-Air:temp xin$ less ex1.py
+Xin-Xins-MacBook-Air:temp xin$ cat ex1.py
+Xin-Xins-MacBook-Air:temp xin$ hello world
+-bash: hello: command not found
+Xin-Xins-MacBook-Air:temp xin$ ls
+ex1.py
+Xin-Xins-MacBook-Air:temp xin$ touch ex2.py
+Xin-Xins-MacBook-Air:temp xin$ ls
+ex1.py	ex2.py
+Xin-Xins-MacBook-Air:temp xin$ rm ex2.py
+Xin-Xins-MacBook-Air:temp xin$ ls
+ex1.py
+Xin-Xins-MacBook-Air:temp xin$ cat ex1.py Hello world
+cat: Hello: No such file or directory
+cat: world: No such file or directory
+Xin-Xins-MacBook-Air:temp xin$ cat ex1.py
+Xin-Xins-MacBook-Air:temp xin$ Hello World
+-bash: Hello: command not found
+Xin-Xins-MacBook-Air:temp xin$ hello world!
+-bash: hello: command not found
+Xin-Xins-MacBook-Air:temp xin$ print("hello World!")
+-bash: !": event not found
+Xin-Xins-MacBook-Air:temp xin$ ls
+ex1.py
+Xin-Xins-MacBook-Air:temp xin$ python3.6 ex1.py
+-bash: python3.6: command not found
+Xin-Xins-MacBook-Air:temp xin$ python3.6 ex1.py
+-bash: python3.6: command not found
+Xin-Xins-MacBook-Air:temp xin$ less ex1.py
+Xin-Xins-MacBook-Air:temp xin$ cat ex1.py
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex1.py
+Xin-Xins-MacBook-Air:temp xin$ python3.7 py
+python3.7: can't open file 'py': [Errno 2] No such file or directory
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex1.py
+hello world!
+hello again
+I like typing this.
+This is fun.
+Yay! Printing.
+I'd much rather you 'not'.
+I "said" do not touch this
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex1.py
+hello world!
+hello again
+I like typing this.
+This is fun.
+Yay! Printing.
+I'd much rather you 'not'.
+I "said" do not touch this
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex1.py
+  File "ex1.py", line 8
+    print("error example.)
+                         ^
+SyntaxError: EOL while scanning string literal
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex1.py
+hello world!
+hello again
+I like typing this.
+This is fun.
+Yay! Printing.
+I'd much rather you 'not'.
+I "said" do not touch this
+error example.
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex1.py
+hello world!
+hello again
+I like typing this.
+This is fun.
+Yay! Printing.
+I'd much rather you 'not'.
+I "said" do not touch this
+error example.
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex1.py line 7
+hello world!
+hello again
+I like typing this.
+This is fun.
+Yay! Printing.
+I'd much rather you 'not'.
+I "said" do not touch this
+error example.
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex1.py, line 5
+python3.7: can't open file 'ex1.py,': [Errno 2] No such file or directory
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex1.py/line 5
+python3.7: can't open file 'ex1.py/line': [Errno 20] Not a directory
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex1.py.line 5
+python3.7: can't open file 'ex1.py.line': [Errno 2] No such file or directory
