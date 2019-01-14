@@ -1,0 +1,25 @@
+exe 2
+Xin-Xins-MacBook-Air:temp xin$ touch ex2.py
+Xin-Xins-MacBook-Air:temp xin$ ls
+ex1.py	ex2.py
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex2.py
+this will run
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex2.py
+this will run
+hi # there
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex2.py
+this will run
+hi # there
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex2.py
+this will run
+hi # there
+print
+Xin-Xins-MacBook-Air:temp xin$ 
+
+#balabala invalid
+#invisible
+#print("this won't run)
+print ("this will run")
+print ("hi # there")
+print #("hi there")
+print ("print")
