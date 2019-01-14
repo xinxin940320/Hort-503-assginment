@@ -1,0 +1,69 @@
+Exe 5
+Xin-Xins-MacBook-Air:temp xin$ python ex5.py
+  File "ex5.py", line 8
+    print(f "let's talk about {my_name}.")
+                                        ^
+SyntaxError: invalid syntax
+Xin-Xins-MacBook-Air:temp xin$ python ex5.py
+  File "ex5.py", line 8
+    print(f "Let's talk about {my_name}.")
+                                        ^
+SyntaxError: invalid syntax
+Xin-Xins-MacBook-Air:temp xin$ python 3.7 ex5.py
+python: can't open file '3.7': [Errno 2] No such file or directory
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex5.py
+  File "ex5.py", line 8
+    print(f "Let's talk about {my_name}")
+                                       ^
+SyntaxError: invalid syntax
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex5.py
+  File "ex5.py", line 8
+    print(f "Let's talk about {my_name}. ")
+                                         ^
+SyntaxError: invalid syntax
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex5.py
+  File "ex5.py", line 9
+    print(f "I am {my_age} years old.")
+                                     ^
+SyntaxError: invalid syntax
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex5.py
+Let's talk about Xin Xin.
+I am 25 years old.
+I am 166 cm tall.
+I am 50 kg heavy.
+Actually I have really great body shape.
+I have brown eyes.
+They look really good.
+My teeth are usually white, and I really like that white color.
+If I add 25, 166 and 50, I get 241.
+Exe5 study drills
+Xin-Xins-MacBook-Air:temp xin$ touch ex5studydrills.py
+Xin-Xins-MacBook-Air:temp xin$ ls
+caculate.py		ex2.py			ex5.py
+caculate1.py		ex3.py			ex5studydrills.py
+ex1.py			ex4.py
+
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex5studydrills.py
+I am a graduate student from Washington state university.
+I am in the molecular plant sciences program.
+I started from 2019.
+I really enjoyed what I have learnt.
+There are 12 in our lab.
+They are really nice.
+We have 5 phd students, and 4 undergraduates.
+we have 3 technicians also.
+Xin-Xins-MacBook-Air:temp xin$ 
+
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex5.py
+Let's talk about Xin Xin.
+I am 25 years old.
+I am 166 cm tall.
+I am 50 kg heavy.
+Actually I have really great body shape.
+I have brown eyes.
+They look really good.
+My teeth are usually white, and I really like that white color.
+If I add 25, 166 and 50, I get 241.
+So I am 111.11111111111111 lbs heavy, and I am 5.4461942257217855 ft tall.
+Xin-Xins-MacBook-Air:temp xin$ 
+
