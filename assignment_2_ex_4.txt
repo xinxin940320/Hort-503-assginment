@@ -1,0 +1,20 @@
+Exe 4
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex4.py
+There are 100 cars available.
+there are only 30 drivers available.
+There will be 70 empty cars today.
+We can tranport 120 people today.
+We have 90 to carpool today.
+We need to put about 3.0 in each car.
+Xin-Xins-MacBook-Air:temp xin$ ls
+caculate.py	ex1.py		ex2.py		ex3.py		ex4.py
+Xin-Xins-MacBook-Air:temp xin$ touch caculate1.py
+Xin-Xins-MacBook-Air:temp xin$ ls
+caculate.py	ex1.py		ex3.py
+caculate1.py	ex2.py		ex4.py
+Xin-Xins-MacBook-Air:temp xin$ python3.7 caculate1.py
+There are 20 tables aviable
+There are 120 people can sit in the tables
+We have 100 people today
+We have 20 seats left
+Xin-Xins-MacBook-Air:temp xin$ 
