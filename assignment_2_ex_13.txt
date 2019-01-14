@@ -1,0 +1,95 @@
+Exe 13 study drills
+Xin-Xins-MacBook-Air:temp xin$ python3.7 apple pear orange
+python3.7: can't open file 'apple': [Errno 2] No such file or directory
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex13.py apple pear orange
+The script is called: ex13.py
+your first variable is: apple
+your second variable is: pear
+your third variable is: orange
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex13.py apple pear orange
+The script is called: ex13.py
+Traceback (most recent call last):
+  File "ex13.py", line 5, in <module>
+    print("your first variable is:", first)
+NameError: name 'first' is not defined
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex13.py first pear orange
+The script is called: ex13.py
+Traceback (most recent call last):
+  File "ex13.py", line 5, in <module>
+    print("your first variable is:", apple)
+NameError: name 'apple' is not defined
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex13.py apple orange pear
+The script is called: ex13.py
+your first variable is: apple
+your second variable is: orange
+your third variable is: pear
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex13.py apple pear banana orange
+The script is called: ex13.py
+your first variable is: apple
+your second variable is: pear
+your third variable is: banana
+/n orange
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex13.py apple pear orange banana
+The script is called: ex13.py
+your first variable is: apple
+your second variable is: pear
+your third variable is: orange
+/n banana
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex13.py apple banana orange
+Traceback (most recent call last):
+  File "ex13.py", line 2, in <module>
+    script, apple, pear, orange, banana = argv
+ValueError: not enough values to unpack (expected 5, got 4)
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex13.py apple pear orange banana
+The script is called: ex13.py
+your first variable is: apple
+your second variable is: pear
+your third variable is: orange
+/n banana
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex13.py apple banana orange
+Traceback (most recent call last):
+  File "ex13.py", line 2, in <module>
+    script, apple, pear, orange, banana = argv
+ValueError: not enough values to unpack (expected 5, got 4)
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex13.py apple pear orange banana
+The script is called: ex13.py
+your first variable is: apple
+your second variable is: banana
+your third variable is: orange
+/n banana
+
+from sys import argv
+script, apple, pear, orange, banana = argv
+
+print ("The script is called:", script)
+print("your first variable is:", apple)
+print("your second variable is:", banana)
+print("your third variable is:", orange)
+print("/n", banana)
+
+3. 
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex13.py apple orange pear banana
+The script is called: ex13.py
+your first variable is: apple
+your second variable is: banana
+your third variable is: pear
+/n banana
+my favorite fruit is: apple
+I like apple very much!
+Xin-Xins-MacBook-Air:temp xin$ 
+
+from sys import argv
+script, apple, pear, orange, banana = argv
+
+print ("The script is called:", script)
+print("your first variable is:", apple)
+print("your second variable is:", banana)
+print("your third variable is:", orange)
+print("/n", banana)
+
+
+print("my favorite fruit is:", end=" ")
+favorite_fruit=input ()
+
+print (f"I like {favorite_fruit} very much!")
+
