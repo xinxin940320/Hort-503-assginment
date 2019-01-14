@@ -1,0 +1,85 @@
+exe14
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex14.py Xin
+Hi Xin, I'm the ex14.py script.
+I'd like to ask you few qustions.
+Do you like me Xin?
+>yes
+where do you live Xin?
+>Pullman
+what kind of computer do you have?
+>macbook air
+
+Alright, so you said yes about liking me.
+You live in Pullman. Not sure where that is. And you have a macbook air computer. Nice
+
+from sys import argv
+script, user_name = argv
+prompt = '>'
+print(f"Hi {user_name}, I'm the {script} script.")
+print("I'd like to ask you few qustions.")
+print(f"Do you like me {user_name}?")
+likes = input (prompt)
+
+print(f"where do you live {user_name}?")
+lives = input(prompt)
+
+print ("what kind of computer do you have?" )
+computer = input (prompt)
+
+print (f'''
+Alright, so you said {likes} about liking me.
+You live in {lives}. Not sure where that is. And you have a {computer} computer. Nice ''')
+
+Exe14 study drills
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex14.py Xin
+Hi Xin, I'm the ex14.py script.
+I'd like to ask you few qustions.
+Do you like me Xin?
+:p no
+where do you live Xin?
+:p WA 
+what kind of computer do you have?
+:p apple  
+
+Alright, so you said no about liking me.
+You live in WA. Not sure where that is. And you have a apple computer. Nice 
+Xin-Xins-MacBook-Air:temp xin$ 
+from sys import argv
+script, user_name = argv
+prompt = ':p '
+print(f"Hi {user_name}, I'm the {script} script.")
+print("I'd like to ask you few qustions.")
+print(f"Do you like me {user_name}?")
+likes = input (prompt)
+
+print(f"where do you live {user_name}?")
+lives = input(prompt)
+
+print ("what kind of computer do you have?" )
+computer = input (prompt)
+
+print (f'''
+Alright, so you said {likes} about liking me.
+You live in {lives}. Not sure where that is. And you have a {computer} computer. Nice ''')
+3.
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex14studydrills.py Xin second first
+Hi, Xin!
+Have you ever learned python before? is that your second time?
+>first
+Is this your first lesson.
+>second
+Oh, you learn python first and this is your second lesson!
+
+from sys import argv
+script, user_name, first, second = argv
+prompt='>'
+
+print(f"Hi, {user_name}!")
+print(f"Have you ever learned python before? is that your {first} time?")
+time_1 = input (prompt)
+
+print(f"Is this your {second} lesson.")
+time_2 = input (prompt)
+
+print(f"""Oh, you learn python {time_1} and this is your {time_2} lesson!""")
+
