@@ -1,0 +1,68 @@
+Exe 9
+
+Xin-Xins-MacBook-Air:temp xin$ touch ex9.py
+Xin-Xins-MacBook-Air:temp xin$ ls
+caculate.py		ex3.py			ex6.py
+caculate1.py		ex4.py			ex7.py
+ex1.py			ex5.py			ex8.py
+ex2.py			ex5studydrills.py	ex9.py
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex9.py
+  File "ex9.py", line 7
+    print("here are the months:" months)
+                                      ^
+SyntaxError: invalid syntax
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex9.py
+here are the days: Monday Tuesday Wednesday Thursday Friday Saturday Sunday
+here are the months: Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+
+There's something going on here.
+With the three double-quotes.
+We'll be able to type as much as we like.
+Even 4 lines if we want, or 5, or 6.
+
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex9.py
+here are the days: Monday Tuesday Wednesday Thursday Friday Saturday Sunday
+here are the months: 
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+
+There's something going on here.
+With the three double-quotes.
+We'll be able to type as much as we like.
+Even 4 lines if we want, or 5, or 6.
+Exe 9 study drills
+# Here are some new stange stuff, remember tyoe it exactly.
+
+days = "Monday Tuesday Wednesday Thursday Friday Saturday Sunday"
+#name days as Monday Tuesday Wednesday Thursday Friday Saturday Sunday
+months = "\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
+#name days as Jan Feb Mar Apr May Jun Jul Aug
+#\n means going to next line
+
+print("here are the days:", days)
+#export text
+print("here are the months:", months)
+#export text
+
+print("""
+There's something going on here.
+With the three double-quotes.
+We'll be able to type as much as we like.
+Even 4 lines if we want, or 5, or 6.
+""")
+#export text
+#"""means all the contents in that text are just exported text, no other means.
+
