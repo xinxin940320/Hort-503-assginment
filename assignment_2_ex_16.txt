@@ -1,0 +1,66 @@
+exe16
+
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex16.py ex16_test.txt
+We are going to erase ex16_test.txt.
+if you do not want that, hit CTRL+C (^C).
+if you do want that, hit RETURN
+?
+Opening the file...
+Truncating the file. Goodbye!
+now I'm going to ask you for three lines.
+line 1: I have a pen
+line 2: I have an apple
+line 3: apple pen
+I'm going to write these to the file.
+And finally, we close it.
+
+from sys import argv
+
+script, filename = argv
+
+print (f"We are going to erase {filename}.")
+print ("if you do not want that, hit CTRL+C (^C).")
+print ("if you do want that, hit RETURN")
+#export text
+input("?")
+#keyboard hit
+print ("Opening the file...") #export text
+target = open(filename, "w")  #assign target as ex16_test.txt
+print("Truncating the file. Goodbye!") #wxport text
+target.truncate() # truncate the ex16_test.txt
+
+print("now I'm going to ask you for three lines.")
+#export text
+line1 = input("line 1: ")
+line2 = input("line 2: ")
+line3 = input("line 3: ")
+#input three lines
+print("I'm going to write these to the file.")
+
+target.write(line1) #export line1
+target.write("\n") #next line
+target.write(line2) #export line2
+target.write("\n")
+target.write(line3) # export line3
+target.write("\n")
+
+print("And finally, we close it.")
+target.close() #close ex16_test.txt
+
+ex12.py (END)
+ex16 study Drill
+
+
+2. Xin-Xins-MacBook-Air:temp xin$ python ex16_studydrill.py ex16_test.txt
+I just typed:
+I have a pen
+I have an apple
+apple pen
+
+from sys import argv
+
+script, filename = argv
+
+txt=open (filename)
+print (f"I just typed:")
+print (txt. read())
