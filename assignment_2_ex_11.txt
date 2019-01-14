@@ -1,0 +1,49 @@
+Exe 11
+Xin-Xins-MacBook-Air:temp xin$ touch ex11.py
+Xin-Xins-MacBook-Air:temp xin$ ls
+caculate.py		ex11.py			ex5studydrills.py
+caculate1.py		ex2.py			ex6.py
+ex1.py			ex3.py			ex7.py
+ex10.py			ex4.py			ex8.py
+ex10studydrill.py	ex5.py			ex9.py
+
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex11.py
+How old are you? 24
+how tall are you? 166
+how much do you weight? 101
+So,you are 24 old, 166 tall and 101 heavy.
+Xin-Xins-MacBook-Air:temp xin$ 
+
+print("How old are you?", end=' ')
+age = input()
+print("how tall are you?", end=' ')
+height=input()
+print("how much do you weight?", end=' ')
+weight=input()
+
+print(f"So,you are {age} old, {height} tall and {weight} heavy.")
+
+exe 11 study drills
+Xin-Xins-MacBook-Air:temp xin$ touch exe11studydrills.py
+Xin-Xins-MacBook-Air:temp xin$ ls
+caculate.py		ex2.py			ex7.py
+caculate1.py		ex3.py			ex8.py
+ex1.py			ex4.py			ex9.py
+ex10.py			ex5.py			exe11studydrills.py
+ex10studydrill.py	ex5studydrills.py
+ex11.py			ex6.py
+Xin-Xins-MacBook-Air:temp xin$ python3.7 exe11studydrills.py
+I like Harry potter.
+Do you like Harry Potter?
+yes
+Do you like the Game of Throne? yes
+Then if you say yes and yes, then we can be friends.
+Xin-Xins-MacBook-Air:temp xin$ 
+
+print("I like Harry potter.")
+print("Do you like Harry Potter?")
+answer_1 = input ()
+print("Do you like the Game of Throne?", end=' ')
+answer_2 = input()
+print(f"Then if you say {answer_1} and {answer_2}, then we can be friends.") 
+
