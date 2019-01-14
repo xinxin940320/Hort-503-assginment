@@ -1,0 +1,81 @@
+Exe 10
+Xin-Xins-MacBook-Air:temp xin$ touch ex10.py
+Xin-Xins-MacBook-Air:temp xin$ ls
+caculate.py		ex3.py			ex7.py
+caculate1.py		ex4.py			ex8.py
+ex1.py			ex5.py			ex9.py
+ex10.py			ex5studydrills.py
+ex2.py			ex6.py
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex10.py
+	I'm tabbed in.
+I'm split
+on a line.
+I'm \ a \ cat.
+
+I'll do a list:
+	* Cat food
+	* fishies
+	* catnip
+	* Grass
+
+tabby_cat = "\tI'm tabbed in."
+persian_cat = "I'm split\non a line."
+backslash_cat = "I'm \\ a \\ cat."
+
+fat_cat = """
+I'll do a list:
+\t* Cat food
+\t* fishies
+\t* catnip\n\t* Grass
+"""
+print(tabby_cat)
+print(persian_cat)
+print(backslash_cat)
+print(fat_cat)
+
+exe 10 study drills
+2. tabby_cat = "\tI'm tabbed in."
+persian_cat = "I'm split\non a line."
+backslash_cat = "I'm \\ a \\ cat."
+
+fat_cat = '''
+I'll do a list:
+\t* Cat food
+\t* fishies
+\t* catnip\n\t* Grass
+'''
+print(tabby_cat)
+print(persian_cat)
+print(backslash_cat)
+print(fat_cat)
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex10.py
+	I'm tabbed in.
+I'm split
+on a line.
+I'm \ a \ cat.
+
+I'll do a list:
+	* Cat food
+	* fishies
+	* catnip
+	* Grass
+In many conditions, ‘’’ has the same function with “””.
+3.
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex10studydrill.py
+1 3 5 6
+
+	red is not 'yellow 
+	blue is blue 
+ white eaquls everything 
+	and black means black.
+
+flag = "{} {} {} {}"
+
+print(flag.format (1,3,5,6))
+print(flag. format(
+"\n\tred is not \'yellow",
+"\n\tblue is blue",
+"\n white eaquls everything",
+"\n\tand black means black."
+))
+
