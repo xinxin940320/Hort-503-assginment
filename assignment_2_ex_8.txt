@@ -1,0 +1,55 @@
+Exe 8
+Xin-Xins-MacBook-Air:temp xin$ touch ex8.py
+Xin-Xins-MacBook-Air:temp xin$ ls
+caculate.py		ex3.py			ex6.py
+caculate1.py		ex4.py			ex7.py
+ex1.py			ex5.py			ex8.py
+ex2.py			ex5studydrills.py
+in-Xins-MacBook-Air:temp xin$ python3.7 ex8.py
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex8.py
+1 2 3 4
+one two three four
+True False False True
+Traceback (most recent call last):
+  File "ex8.py", line 6, in <module>
+    print(fomatter.format(formatter, formatter, formatter, formatter))
+NameError: name 'fomatter' is not defined
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex8.py
+1 2 3 4
+one two three four
+True False False True
+{} {} {} {} {} {} {} {} {} {} {} {} {} {} {} {}
+Traceback (most recent call last):
+  File "ex8.py", line 8, in <module>
+    "Try your"
+IndexError: tuple index out of range
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex8.py
+1 2 3 4
+one two three four
+True False False True
+{} {} {} {} {} {} {} {} {} {} {} {} {} {} {} {}
+Try your Own text here Maybe a poem Or a song about fear
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex8.py
+1 2 3 4
+one two three four
+True False False True
+{} {} {} {} {} {} {} {} {} {} {} {} {} {} {} {}
+Try your Own text here Maybe a poem Or a song about fear
+Exe 8 study drills
+formatter = "{} {} {} {}"
+#name formatter equals quadruple {}
+print(formatter . format (1,2,3,4))
+#name every single {} in formatter seperately as 1, 2, 3, 4, and export results
+print(formatter.format("one","two", "three", "four"))
+#name every single {} in formatter seperately as one, two, three, four, and export results
+print(formatter.format(True, False, False, True))
+#name every single {} in formatter seperately as True, False, False, True
+print(formatter.format(formatter, formatter, formatter, formatter))
+#name every single {} in formatter seperately as quadruple formatter, each formatter equals quadruple {}
+print(formatter.format(
+"Try your",
+"Own text here", 
+"Maybe a poem", 
+"Or a song about fear"))
+#name every single {} in formatter seperately as a poem, respectively
+
