@@ -1,0 +1,59 @@
+Exe7
+Xin-Xins-MacBook-Air:temp xin$ touch ex7.py
+Xin-Xins-MacBook-Air:temp xin$ ls
+caculate.py		ex3.py			ex6.py
+caculate1.py		ex4.py			ex7.py
+ex1.py			ex5.py
+ex2.py			ex5studydrills.py
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex7.py
+Mary has a little lamb.
+Its fleece was white as snow.
+And everywhere that Mary went.
+..........
+Cheese Burger
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex7.py
+Mary has a little lamb.
+Its fleece was white as snow.
+And everywhere that Mary went.
+..........
+Cheese
+Burger
+Exe7 study drills
+print("Mary has a little lamb.")
+#export text "Mary has a little lamb."
+print ("Its fleece was white as {}.".format('snow'))
+#embed snow as a string inside another string and export
+print("And everywhere that Mary went.")
+#export text "And everywhere that Mary went."
+print("." * 10)
+#export 10 .
+end1 = "C"
+#name end1 equals C
+end2 = "h"
+#name end2 equals h
+end3 = "e"
+#name end3 equals e
+end4 = "e"
+#name end4 equals e
+end5 = "s"
+#name end5 equals s
+end6 = "e"
+#name end6 equals e
+end7 = "B"
+#name end7 equals B
+end8 = "u"
+#name end8 equals u
+end9 = "r"
+#name end9 equals r
+end10 = "g"
+#name end10 equals g
+end11 = "e"
+#name end11 equals e
+end12 = "r"
+#name end12 equals r
+
+print(end1 + end2 + end3 + end4 + end5 + end6, end= ' ')
+#exports from end1 to end6, and use end= ' ' let the next exported results in the same line
+print(end7 + end8 + end9 + end10 + end11 + end12)
+#exports from end7 to end12 
+
