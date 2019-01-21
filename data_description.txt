@@ -1,0 +1,27 @@
+!Series_title	Expression data from Triticum aestivum near isogenic lines (TugelaDn0, RWA susceptible; TugelaDn1, RWA resistant; TugelaDn2, RWA resistant; TugelaDn5, RWA resistant) after infestation by Diuraphis noxia biotype SA1												
+!Series_geo_accession	GSE120267												
+!Series_status	Public on Sep 22 2018												
+!Series_submission_date	Sep 20 2018												
+!Series_last_update_date	Dec 04 2018												
+!Series_summary	The wheat Nils expression profiles differ because of their response to aphid feeding (i.e., antibiosis - Dn1; tolerance - Dn2; antixenosis and antibiosis - Dn5)												
+!Series_summary	We used GeneChip Wheat Genome Array (Affymetrix, USA) analysis to detail the global programme of gene expression underlying cellularisation and identified distinct classes of up-regulated genes during this process.												
+!Series_overall_design	Plants of each cultivar were infested with 10 aphids and incubated for 48 h. All leaves except the first leaf were harvested into liquid N2 and stored at 280¬∞C prior to RNA isolation. Data analysis was conducted using CranBioconductor and using a linear mixed statistical model (Botha et al. 2014, Biology Open (2014) 3, 1116‚Äì1126 doi:10.1242/bio.201410280).												
+!Series_type	Expression profiling by array												
+!Series_contributor	Anna-Maria,,Botha												
+!Series_sample_id	GSM3397267 GSM3397268 GSM3397269 GSM3397270 GSM3397271 GSM3397272 GSM3397273 GSM3397274 GSM3397275 GSM3397276 GSM3397277 GSM3397278 GSM3397279 												
+!Series_contact_name	Anna-Maria,,Botha-Oberholster												
+!Series_contact_email	ambo@sun.ac.za												
+!Series_contact_phone	218085832												
+!Series_contact_laboratory	Cereal Genomics												
+!Series_contact_department	Genetics												
+!Series_contact_institute	Stellenbosch University												
+!Series_contact_address	Genetics, JC Smuts Building Rm 214, Stellenbosch												
+!Series_contact_city	Stellenbosch												
+!Series_contact_state	WP												
+!Series_contact_zip/postal_code	7601												
+!Series_contact_country	South Africa												
+!Series_supplementary_file	ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE120nnn/GSE120267/suppl/GSE120267_RAW.tar												
+!Series_platform_id	GPL3802												
+!Series_platform_taxid	4565												
+!Series_sample_taxid	4565												
+!Series_relation	BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA492501												
