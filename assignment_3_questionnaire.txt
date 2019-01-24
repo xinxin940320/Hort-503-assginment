@@ -1,0 +1,10 @@
+Question 1
+The data I selected is sort of based on the plant I am working on which is Kentucky Bluegrass. However, the data I have selected is Kentucky Bluegrass RNA-Seq data.My research project is mainly about characterizing and cloning the vernalization related genes in Kentucky Bluegrass, so from the RNA-Seq data we might be able to find the possible copies of vern genes.
+
+Question 2
+
+The data is present on NCBI SRA database. And the link to that data is https://www.ncbi.nlm.nih.gov/bioproject/383017
+
+Question 3
+
+Yes.
