@@ -1,0 +1,49 @@
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex20.py input_file
+Traceback (most recent call last):
+  File "ex20.py", line 13, in <module>
+    current_file = open(input_file)
+FileNotFoundError: [Errno 2] No such file or directory: 'input_file'
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex20.py test.txt
+Traceback (most recent call last):
+  File "ex20.py", line 13, in <module>
+    current_file = open(input_file)
+FileNotFoundError: [Errno 2] No such file or directory: 'test.txt'
+Xin-Xins-MacBook-Air:temp xin$ python3.7 input_file
+python3.7: can't open file 'input_file': [Errno 2] No such file or directory
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex20.py input_file
+Traceback (most recent call last):
+  File "ex20.py", line 13, in <module>
+    current_file = open(input_file)
+FileNotFoundError: [Errno 2] No such file or directory: 'input_file'
+
+
+from sys import argv
+script, input_file = argv
+
+def print_all(f):
+    print(f.read())
+
+def rewind(f):
+    f.seek(0)
+
+def print_a_line(line_count, f):
+    print(line_count, f.readline())
+
+current_file = open(input_file)
+
+print("First let's print the whole file:\n")
+print_all(current_file)
+print("Now let's rewind, kind of like a tape.")
+
+rewind(current_file)
+
+print("Let's print three lines:")
+
+current_line = 1
+print_a_line(current_line, current_file)
+
+current_line = current_line +1
+print_a_line(current_line, current_file)
+
+current_line = current_line +1
+print_a_line(current_line, current_file)

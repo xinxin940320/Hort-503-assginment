@@ -1,0 +1,113 @@
+The code I have learn so far:
+Ex1:
+print("")------------ output the string inside of the ""
+
+EX2:
+#        ------------ pound characters means that you could write comments about the code and python will not run it.
+
+Ex3:
++ plus --------------- adding
+- minus--------------- substracting
+/ slash--------------- dividing
+* asterisk ----------- multiplying 
+% percent ------------ make it turn to percentage 
+< less-than ---------- comparing
+> greater-than ------- comparing
+<= less-than-equal --- comparing
+>= greater-than-equal- comparing
+
+Ex4:
+variables = .... ------ naming variables ,
+space_in_a_car = 4.0--- underscore character is always used when you name variables.
+
+Ex5: 
+print(f"..{}.")-------- format string, you will print the string which you just naming in the {} position.
+
+Ex6:
+a = "b"
+f"......{a}"-----------format string 
+format(a)--------------format string
+
+Ex7:
+print(".....{}".format('a'))------------ You do not need to name it before formatting, you could do it at the same line and after formatting.
+"."*10 could print ..........
+end='' ---------------- You could make a blank space and the next printing would be in the same line
+
+Ex8:
+a = "{} {} {}.." ---------turn variable into other strings
+print(a.format(1,2,3....)) ---------name a as 1,2,3... and then format a 
+
+Ex9:
+\n ---------------------change to next line
+print(""" .....
+......
+.......
+""")--------------------- three double-quotes could let python print the text in different lines
+
+Ex10:
+\\ ------------ backslash
+\'-------------single-quote
+\"-------------double-quote
+\a ------------BEL
+\b ------------BS
+\f ------------FF
+\n ------------LF
+\N{name}-------Character named name in the Unicode database (Unicode only)
+\r-------------Carriage Return (CR)
+\t-------------Horizontal Tab (TAB)
+\uxxxx---------Character with 16-bit hex value xxxx
+\uxxxxxxxx-----Character with 32-bit hex value xxxxxxxx
+\v-------------ASCII vertical tab (VT)
+\000-----------Character with octal value 000
+\xhh-----------Character with hex value hh
+
+Ex11:
+print(".....?")
+a = input () --------------- ask question
+
+Ex12:
+a = input ("......?")------------another way to ask question, you could write question and input in the same line
+
+Ex13:
+from sys import argv --------------add features to your script from python feature set. 
+script, a, b.....= argv ------------ always put script on first, when you run it on terminal, make sure you type all your command line arguments
+
+Ex14:
+
+Ex15:
+a=open(filename) ------------ Naming a string is opening a file
+.....read()------------------read a file
+
+Ex16:
+close ----------Close the file
+read –----------Read the contents of the file. You can assign the result to a variable.
+readline--------Read just one line of a text file
+truncate--------Empty the file
+write('.....')---Write "....." to the file
+seek(0)---------Move the read/write location to the beginning of the file
+
+Ex17:
+Use the code from ex 16 to copy a file
+open()
+.....write(....)
+.....close.()
+
+Ex18:
+def a(b,c)------------define a function
+    print(f"b,c ")--------this function is printing some variables
+
+Ex19:
+You could give the function you defined numbers, variables, calculations or other values.
+
+Ex20:
+
+Ex21:
+def add(a,b):
+    return a+b -------- return could do something like backward. Python adds a and b. And when the functions ends, any line that runs it will be able to assign this a + b result to a variable.
+
+
+
+
+
+
+

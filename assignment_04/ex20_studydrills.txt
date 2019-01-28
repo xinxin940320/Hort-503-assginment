@@ -1,0 +1,75 @@
+1.
+from sys import argv
+script, input_file = argv
+#add input_file as argv
+def print_all(f):
+    print(f.read())
+#define print_all function as reading f
+def rewind(f):
+    f.seek(0)
+#define rewind function as seeking f
+def print_a_line(line_count, f):
+    print(line_count, f.readline())
+#define print_a_line as printing line_count and the first line of f
+current_file = open(input_file)
+#name current_file as opening input_file
+print("First let's print the whole file:\n")
+#output "First let's print the whole file:" then change to next line
+print_all(current_file)
+#perform the function of print_all
+print("Now let's rewind, kind of like a tape.")
+#output "Now let's rewind, kind of like a tape."
+rewind(current_file)
+#perform the function of rewind
+print("Let's print three lines:")
+#output "Let's print three lines:"
+current_line = 1
+#set current_line's as 1
+print_a_line(current_line, current_file)
+#perform the function of print_a_line
+current_line = current_line +1
+#name current_line as current_line adding 1
+print_a_line(current_line, current_file)
+#perform the function of print_a_line
+current_line = current_line +1
+#name current_line as current_line adding 1
+print_a_line(current_line, current_file)
+#perform the function of print_a_line
+
+5.
+from sys import argv
+script, input_file = argv
+#add input_file as argv
+def print_all(f):
+    print(f.read())
+#define print_all function as reading f
+def rewind(f):
+    f.seek(0)
+#define rewind function as seeking f
+def print_a_line(line_count, f):
+    print(line_count, f.readline())
+#define print_a_line as printing line_count and the first line of f
+current_file = open(input_file)
+#name current_file as opening input_file
+print("First let's print the whole file:\n")
+#output "First let's print the whole file:" then change to next line
+print_all(current_file)
+#perform the function of print_all
+print("Now let's rewind, kind of like a tape.")
+#output "Now let's rewind, kind of like a tape."
+rewind(current_file)
+#perform the function of rewind
+print("Let's print three lines:")
+#output "Let's print three lines:"
+current_line = 1
+#set current_line's as 1
+print_a_line(current_line, current_file)
+#perform the function of print_a_line
+current_line += 1
+#name current_line as current_line adding 1
+print_a_line(current_line, current_file)
+#perform the function of print_a_line
+current_line += 1
+#name current_line as current_line adding 1
+print_a_line(current_line, current_file)
+#perform the function of print_a_line

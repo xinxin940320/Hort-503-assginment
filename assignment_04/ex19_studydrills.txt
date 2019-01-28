@@ -1,0 +1,135 @@
+1.
+def cheese_and_crackers(cheese_count, boxes_of_crackers):
+    print(f"You have {cheese_count} cheeses!")
+#This line is formatting-printing the value of cheese_count 
+    print(f"You have {boxes_of_crackers} boxes of crackers!")
+#This line is formatting-printing the value of boxes_of_crackers 
+    print("Man that's enough for a party!")
+#output the string "Man that's enough for a party!"
+    print("Get a blanket.\n")
+#all of the five lines above are defining a function, which is when you input cheese_and_crackers, it will print these four sentences.
+#\n means change to next line.
+print("We can just give the function numbers directly:")
+#output a string "We can just give the function numbers directly:"
+cheese_and_crackers(20, 30)
+#give the function cheese_and_crackers values as 20, 30.
+print("OR, we can use variables from our script:")
+#output a string "OR, we can use variables from our script:"
+amount_of_cheese = 10
+amount_of_crackers = 50
+#give the variables amount_of_cheese and amount_of_crackers values
+cheese_and_crackers(amount_of_cheese,amount_of_crackers)
+#give the function cheese_and_crackers as variables 
+print("We can do math inside too:")
+#output a string "We can do math inside too:"
+cheese_and_crackers(10 + 20, 5+6)
+#give the function cheese_and_crackers as math "10 + 20, 5+6"
+print("And we can combine the two, variables and math:")
+#output a string "And we can combine the two, variables and math:"
+cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers+1000)
+#give the function cheese_and_crackers combination of variables and math
+2. 
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex19_studydrills.py
+This is the 1st way to run it.
+I have eaten 2.
+There are 5 kinds of chickens.
+I like eating burgers and chickens.
+Could I have more?
+
+This is the 2nd way to run it.
+I have eaten 2.
+There are 5 kinds of chickens.
+I like eating burgers and chickens.
+Could I have more?
+
+3rd way to run it.
+I have eaten 2.
+There are 5 kinds of chickens.
+I like eating burgers and chickens.
+Could I have more?
+
+4th way to run it.
+I have eaten 3.
+There are 4 kinds of chickens.
+I like eating burgers and chickens.
+Could I have more?
+
+5th way to run it.
+I have eaten 4.0.
+There are 3 kinds of chickens.
+I like eating burgers and chickens.
+Could I have more?
+
+6th way to run it.
+I have eaten 3.
+There are 3 kinds of chickens.
+I like eating burgers and chickens.
+Could I have more?
+
+7th way to run it.
+I have eaten 3.0.
+There are 4.0 kinds of chickens.
+I like eating burgers and chickens.
+Could I have more?
+
+8th way to run it.
+I have eaten 2.0.
+There are 3.0 kinds of chickens.
+I like eating burgers and chickens.
+Could I have more?
+
+9th way to run it.
+I could eat 2.0 burgers one time.
+I have eaten 2.
+There are 5 kinds of chickens.
+I like eating burgers and chickens.
+Could I have more?
+
+10th way to run it.
+Thank god this is the 10th way.
+I have eaten 4.0.
+There are 4.0 kinds of chickens.
+I like eating burgers and chickens.
+Could I have more?
+
+def burgers_and_chickens (burgers_count, flavors_of_chickens):
+    print(f"I have eaten {burgers_count}.")
+    print(f"There are {flavors_of_chickens} kinds of chickens.")
+    print("I like eating burgers and chickens.")
+    print("Could I have more?\n")
+print("This is the 1st way to run it.")
+burgers_and_chickens(2, 5)
+
+print("This is the 2nd way to run it.")
+burgers_number = 2
+chickens_number = 5
+burgers_and_chickens(burgers_number, chickens_number)
+
+print("3rd way to run it.")
+burgers_and_chickens(1+1, 2+3)
+
+print("4th way to run it.")
+burgers_and_chickens(burgers_number+1, chickens_number-1)
+
+print("5th way to run it.")
+burgers_and_chickens(8/2, 1*3)
+
+print("6th way to run it.")
+burgers_and_chickens(chickens_number-2, burgers_number+1)
+
+print("7th way to run it.")
+burgers_and_chickens(1+2/1, 2+4/2)
+
+print("8th way to run it.")
+burgers_number_1 = 4/2
+chickens_number_1 = 3/1
+burgers_and_chickens(burgers_number_1, chickens_number_1)
+
+print("9th way to run it.")
+print(f"I could eat {burgers_number_1} burgers one time.")
+burgers_and_chickens(2,5)
+
+print("10th way to run it.")
+print("Thank god this is the 10th way.")
+burgers_and_chickens(burgers_number_1 + 4/2, burgers_number +6/3)
+
