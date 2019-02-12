@@ -1,0 +1,49 @@
+Ex 34
+animals = [’bear’, ’python3.6’, ’peacock’, ’kangaroo’, ’whale’, ’platypus’]
+1. The animal at 1.
+The animal at 1 is the 2nd and is a python3.6.
+2. The third (3rd) animal. 
+The third (3rd) animal is at 2 and is a peacock.
+3. The first (1st) animal. 
+The first (1st) animal is at 0 and is a bear.
+4. The animal at 3.
+The animal at 3 is the 4th and is a kangaroo.
+5. The fifth (5th) animal. 
+The fifth (5th) animal is at 4 and is a kangaroo.
+6. The animal at 2.
+The animal at 2 is the 3rd and is a peacock.
+7. The sixth (6th) animal. 
+The sixth (6th) animal is at 5 and is a whale.
+8. The animal at 4.
+The animal at 4 is the 5th and is a whale.
+Study drills:
+
+1.
+
+The year 2010 in "January 1, 2010" is ordinal number, the year sequence is in oder. So "January 1, 2010" really is 2010 not 2009.
+
+2.
+Fruits = ['peach', 'orange', 'apple', 'kiwi']
+
+1. The 2nd fruit. 
+The 2nd fruit fruit is at 1 and is an orange.
+2. The fruit at 2.
+The fruit at 2 is the 3rd and is an apple.
+3. The 3rd fruit.
+The 3rd fruit is at 2nd and is an apple.
+4. The 4th fruit.
+The 4th fruit is at 3rd and is a kiwi.
+5. The fruit at 3.
+The fruit at 3 is the 4th and is a kiwi.
+
+Balls = ['red', 'blue', 'yellow','pink', 'black']
+1. The 3rd ball.
+The 3rd ball is at 2 and is yellow.
+2. The ball at 3.
+The ball at 3 is the 4th and is pink.
+3. The ball at 4.
+The ball at 4 is the 5th and is black.
+4. The 5th ball.
+The 5th ball is at 4 and is black.
+5.the 2nd ball.
+The 2nd ball is at 1 and is blue.

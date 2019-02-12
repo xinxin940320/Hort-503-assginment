@@ -1,0 +1,28 @@
+Ex28 study drills
+
+1&2
+== ......... equal
+!= ......... not equal
+<> ......... not equal
+>  ......... greater 
+<  ......... less
+>= ......... greater than or equal
+<= ......... less than or equal
+
+3.
+Xin-Xins-MacBook-Air:~ xin$ python3.7
+Python 3.7.1 (default, Dec 14 2018, 13:28:58) 
+[Clang 4.0.1 (tags/RELEASE_401/final)] :: Anaconda, Inc. on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 1 == 3 or 4 <= 5
+True
+>>> not ("Xin" == "Cool Girl" or "Xin" == "not cool")
+True
+>>> not ("Xin" == "Cool Girl" or 3 <= 4)
+False
+>>> 1 != 1
+False
+>>> "burger" == "Coke" or (not (3 <= 4 and 3 == 3))
+False
+>>> 1 == 2 or not (3 == 4 and 4 >= 5)
+True

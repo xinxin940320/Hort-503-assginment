@@ -1,0 +1,51 @@
+1. 
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex21_studydrills.py
+Let's do some math interesting!
+Doing math the easy way: 2+8.
+Doing math the hard way: 2*10!
+Doing math the hard way: 20*8!
+I can calculate by hand, and the result is 160!
+
+def add(c,d):
+    print(f"Doing math the easy way: {c}+{d}.")
+    return c+d
+def multiply(e,f):
+    print(f"Doing math the hard way: {e}*{f}!")
+    return e*f
+c = 2
+d = 4
+e = 1
+d = 8
+print ("Let's do some math interesting!")
+math = multiply(multiply(c, add(c,d)), d)
+print(f"I can calculate by hand, and the result is {math}!")
+
+2.
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex21_studydrills.py
+Let's do some math interesting!
+Doing math the easy way: 2+8.
+Doing math the hard way: 2*10!
+Doing math the hard way: 20*8!
+I can calculate by hand, and the result is 160!
+I want my laptop calculate this: -2309.0
+
+def add(c,d):
+    print(f"Doing math the easy way: {c}+{d}.")
+    return c+d
+def multiply(e,f):
+    print(f"Doing math the hard way: {e}*{f}!")
+    return e*f
+c = 2
+d = 4
+e = 1
+d = 8
+print ("Let's do some math interesting!")
+math = multiply(multiply(c, add(c,d)), d)
+print(f"I can calculate by hand, and the result is {math}!")
+
+iq = 100/2
+weight = 50 * 2
+height = 168 -1
+age = 20 + 4
+math_1 = age + (height - weight * (iq/2))
+print(f"I want my laptop calculate this: {math_1}")

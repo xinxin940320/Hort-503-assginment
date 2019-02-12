@@ -1,0 +1,54 @@
+2.
+This is count 1
+This is count 2
+This is count 3
+This is count 4
+This is count 5
+A fruit of type:apples
+A fruit of type:oranges
+A fruit of type:pears
+A fruit of type:apricots
+I got 1
+I got pennies
+I got 2
+I got dimes
+I got 3
+I got quarters
+Elements also contains:0.
+Elements also contains:1.
+Elements also contains:2.
+Elements also contains:3.
+Elements also contains:4.
+Elements also contains:5.
+Elements also contains:6.
+
+the_count = [1,2,3,4,5]
+fruits = ['apples', 'oranges', 'pears', 'apricots']
+change = [1, 'pennies', 2, 'dimes', 3, 'quarters']
+
+for number in the_count:
+    print(f"This is count {number}")
+
+for fruit in fruits:
+    print(f"A fruit of type:{fruit}")
+
+for i in change:
+    print(f"I got {i}")
+
+elements = [0,1,2,3,4,5,6]
+for a in elements:
+    print(f"Elements also contains:{a}.")
+
+
+3.
+append()
+extend()Extend the list by appending all the items from the iterable
+insert()Insert an item at a given position. 
+remove()Remove the first item from the list.
+pop()Remove the item at the given position in the list, and return it. 
+clear()Remove all items from the list.
+index()Return zero-based index in the list of the first item.
+count() Return the number of times x appears in the list.
+sort()Sort the items of the list in place.
+reverse()Reverse the elements of the list in place.
+copy()Return a shallow copy of the list. 

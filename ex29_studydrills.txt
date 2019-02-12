@@ -1,0 +1,58 @@
+1. 
+The code under "if" could only be ran when they satisfy the condition of "if".For example, in the ex29, only the value of people less than the value of cats, then it will output "Too many cats! The world is doomed!", otherwise it will not be exported.
+
+2.
+
+I think these four spaces are telling python this line of code is under "if". 
+
+3. 
+
+If it isn't indented, the python cannot recognize this line of code is under "if" condition.
+
+4.
+
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex29.py
+3 is less than 4.
+
+if 3 == 4:
+    print("OMG, 3 equals 4.")
+
+if 3 < 4:
+    print("3 is less than 4.")
+
+5.
+I changed the values. people=10, cats=30, dogs=25
+Xin-Xins-MacBook-Air:temp xin$ python3.7 ex29.py
+Too many cats! The world is doomed!
+The world is drooled on!
+People are less than or equal to dogs.
+
+people = 10
+cats = 30
+dogs = 25
+
+
+if people < cats:
+    print("Too many cats! The world is doomed!")
+
+if people > cats:
+    print("Not many cats! The world is saved!")
+
+if people < dogs:
+    print("The world is drooled on!")
+
+if people > dogs:
+    print("The world is dry!")
+
+
+dogs += 5
+if people >= dogs:
+    print("People are greater than or equal to dogs.")
+
+if people <= dogs:
+    print("People are less than or equal to dogs.")
+
+
+if people == dogs:
+    print("People are dogs.")
+
